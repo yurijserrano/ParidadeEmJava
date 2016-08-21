@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JPACS SYSTEM "JPACS.dtd">
+
+<JPACS>
+   <config nome="C:\Java\jpacs\Config\Matriz.xml">
+	   <memoria>
+		   <principal tamanho="1024" tempoacesso="150" />
+		   <cache tamanho="15" tempoacesso="20" tamanhobloco="30">
+                <lru /> <sequencial /> <writethrought />
+		    </cache>
+    	 </memoria>
+   </config>
+</JPACS>
